@@ -2,3 +2,7 @@ html{
     background: linear-gradient(217deg, lightBlue, silver, wheat);
 }
 
+img{
+    display: block;
+    margin: auto;
+}
