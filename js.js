@@ -6,7 +6,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "elitedynasty" && password == "podcast"){
-alert ("Laqoun welcomes you");
+alert ("Happy Trading");
 window.location = "index.html"; // Redirecting to other page.
 return false;
 }
@@ -25,5 +25,5 @@ return false;
 
 function Forgot(){
     alert("Username = elitedynasty / Password = podcast");
-    window.location = "index.html";
+    window.location = "homepage.html";
 }
