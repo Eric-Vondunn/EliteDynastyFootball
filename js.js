@@ -7,7 +7,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "elitedynasty" && password == "podcast"){
 alert ("Happy Trading");
-window.location = "index.html"; // Redirecting to other page.
+window.location = "homepage.html"; // Redirecting to other page.
 return false;
 }
 else{
@@ -25,5 +25,5 @@ return false;
 
 function Forgot(){
     alert("Username = elitedynasty / Password = podcast");
-    window.location = "homepage.html";
+    window.location = "index.html";
 }
