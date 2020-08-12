@@ -25,5 +25,5 @@ return false;
 
 function Forgot(){
     alert("Username = elitedynasty / Password = podcast");
-    window.location = "edflogin.html";
+    window.location = "index.html";
 }

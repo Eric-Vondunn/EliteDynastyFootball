@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Elite Dynasty Homepage
+    </title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <h1 class="Welcome">Welcome to Elite Dynasty Football</h1>
+
+    <h2 class="H2">14 Teams / 1 Goal</h2>
+</head>
+
+
+<Body>
+    
+
+<br>
+
+<div class="DivDraft">
+<h1 class="Draft">Draft Countdown</h1>
+</div>
+    <div id="countdown"></div>
+    <script>
+      function countdownTimer() {
+        const difference = +new Date("2021-07-17") - +new Date();
+        let remaining = "It's Motherfucking Draft Day!!!";
+
+        if (difference > 0) {
+          const parts = {
+            days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+            hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+            minutes: Math.floor((difference / 1000 / 60) % 60),
+            seconds: Math.floor((difference / 1000) % 60)
+          };
+
+          remaining = Object.keys(parts)
+            .map(part => {
+              if (!parts[part]) return;
+              return `${parts[part]} ${part}`;
+            })
+            .join(" ");
+        }
+
+        document.getElementById("countdown").innerHTML = remaining;
+      }
+
+      countdownTimer();
+      setInterval(countdownTimer, 1000);
+    </script>
+
+    <script src="EDFhomepage.js">
+
+    </script>
+
+<br>
+
+<div class="NavBar">
+<nav>
+    <ul class="NavList">
+        <li><a href="index.html">ELITE DYNASTY FOOTBALL NAVIGATION BAR:</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="owners.html">OWNERS</a></li>
+        <li><a href="powerrank.html">POWER RANKINGS</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1bRV9EeepHqV_irsUySq_9AJdR4lh6nNJHGpdIFlM2Ss/edit#gid=1993883503">ROSTERS</a></li>
+        <li><a href="https://soundcloud.com/user-187072088">PODCAST</a></li>
+        <li><a href="https://elitedynastyblog.wordpress.com">BLOG</a></li>
+        <li><a href="https://www.facebook.com/elitedynastypod/">FACEBOOK</a></li>
+        <li><a href="https://twitter.com/elitedynastypod">TWITTER</a></li>
+    </ul>
+</nav>
+</div>
+<br>
+<br>
+<br>
+
+
+<p class="BG">
+    <h2 class="BgHead">Background</h2>
+    Elite Dynasty Football  is a league of 14 extroadinary individuals that began in 2014. The goal of the league is simple, outwit, outlast and outplay the other league owners in Fantasy football to earn the leagues highest honor, The Gene. On the surface It is a .5 PPR, 1 QB dynasty league with 23 roster spots. However, when you dive deeper it is much more than that. Elite Dynasty Football is lifestyle. Its a brand. Its member's span multiple continents and its prestige knows no boundaries. The league produces content on numerous media outlets including Facebook, Twitter, Wordpress and its flagship production, The Elite Dynasty Podcast. Not to mention a clothing brand.Now that you have stumbled upon the league we welcome you with open arms to take this journey with us. Follow the ups and downs, the heartbreak, the triumph and everything inbetween. While 14 individuals compete for 1 goal. <strong>Eternal Glory</strong><br><br><br> - The Commish
+
+</p>
+<br>
+
+
+
+<h1 align = "center" class="Round"><strong>Commish Mock 4.0</strong></h1>
+<h2 align = "center" class="Round">Round 1</h2>
+<ol class = "center">
+
+  <li align = "center">Tiz - Clyde Edwards Helaire</li><br>
+  <li>Add - Jonathan Taylor</li><br>
+  <li>Tiz - JK Dobbins</li><br>
+  <li>Chad - CeeDee Lamb</li><br>
+  <li>Rob - Jerry Jeudy</li><br>
+  <li>Itz - Deandre Swift</li><br>
+  <li>Weyer - Jalen Raegor</li><br>
+  <li>Chad - Justin Jefferson</li><br>
+  <li>Rigg - Cam Akers</li><br>
+  <li>Rigg - Henry Ruggs</li><br>
+  <li>Eric - Tee Higgins</li><br>
+  <li>Eric - Brandon Aiyuk</li><br>
+  <li>Eric - AJ Dillon</li><br>
+  <li>Tiz - Michael Pittman</li><br>
+<br>
+
+
+  <h2 class="Round">Round 2</h2>
+  <li>Add - Denzel Mims</li><br>
+  <li>Itz - KeShawn Vaughn</li><br>
+  <li>Itz - Laviska Shenault</li><br>
+  <li>Josh - Matt Breida</li><br>
+  <li>Eric - Bryan Edwards</li><br>
+  <li>Rob - Antonio Gibson</li><br>
+  <li>Chad - Anthony Macfarland</li><br>
+  <li>Rob - Zach Moss</li><br>
+  <li>Itz - Joe Burrow</li><br>
+  <li>Chad - Chase Claypool</li><br>
+  <li>Fam - Lazard SZN</li><br>
+  <li>Rob - Antonio Gandy Golden</li><br>
+  <li>Rob - Lynn Bowden</li><br>
+  <li>Add - Van Jefferson</li>
+  
+
+</ol>
+
+<br>
+<br>
+<br>
+
+<img src="draft.jpg" height="40%" width="40%" border="5px" alt="" class="center"/>
+<br>
+<br>
+<br>
+
+
+</Body>
+
+<footer align="center">COPYRIGHT 2014</footer>
+
+
+</html>
